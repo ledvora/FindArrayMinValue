@@ -11,16 +11,12 @@ public class MarathonRunners {
 
 	int fastestCurrentTime = times[0];
 
-	System.out.println(names.length); // Double checking that the two lists
-	System.out.println(times.length); // have the same length... I hand
-					  // wrote it, what a joy.
-
 	for (int i = 0; i < names.length; i++) {
 	    if (times[i] < fastestCurrentTime) {
 		fastestCurrentTime = times[i];
 
-	    };
-	};
+	    }
+	}
 
 	System.out.println(fastestCurrentTime);
     }
